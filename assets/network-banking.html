@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head part start -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- network-banking scollbar style start -->
+    <style>
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+            background-color: #ededed;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            height: 5px;
+            background-color: #ff6400;
+            -webkit-border-radius: 4px
+        }
+    </style>
+    <!-- network-banking scollbar style end -->
+    <title>Daxil ol</title>
+</head>
+<!-- head part end -->
+<!-- body part start -->
+
+<body id="net-body">
+    <section class="enter">
+        <div class="outer-login">
+            <div class="wrapper-inner">
+                <div class="login-header">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/main-logo.png"
+                                        alt="login-logo">
+                                </td>
+                                <td>
+                                    <form>
+                                        <a class="firstselect" href="#">AZ</a>
+                                        <a href="#">EN</a>
+                                        <a href="#">RU</a>
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="login-body">
+                    <div class="left-content">
+                        <div class="slide-content">
+                            <div data-aos="fade-right" id="1" class="card-items">
+                                <div class="card-img">
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/cards/slide-img-1.png"
+                                        alt="login-img">
+                                </div>
+                                <div class="card-info">
+                                    <h4>Bir ekranda hər şeyi idarə et!</h4>
+                                    <p>Filiala getmədən, UBank-la bank əməliyyatlarını bir ekranda et!</p>
+                                </div>
+                            </div>
+                            <div id="2" class="card-items slide-card d-none">
+                                <div class="card-img">
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/cards/slide-img-2.png"
+                                        alt="login-img">
+                                </div>
+                                <div class="card-info">
+                                    <h4>Bir toxunuşla istənilən yerə köçürmə et!</h4>
+                                    <p>UBank vasitəsilə Western Union, Zolotaya Korona, CONTACT pul köçürmə sistemləri
+                                        üzərindən bir toxunuşla dünyanın istənilən nöqtəsinə sürətli pul göndər!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slide-dot">
+                                <span id="dot1" class="dot active-dot"></span>
+                                <span id="dot2" class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="login-forms">
+                            <div class="forms-header">
+                                <h3>İnternet Bankçılığa giriş</h3>
+                                <a href="#">
+                                    Qeydiyyat
+                                </a>
+                            </div>
+                            <div class="qrcode-login">
+                                <img src="https://online.unibank.az/ibank/qrCode?attr=b77f99193a" alt="qrcode">
+                            </div>
+                            <div class="login-type-btn">
+                                <a href="#">
+                                    <div class="login-type-active">
+                                        <div class="login-type-inner">
+                                            <img src="https://online.unibank.az/ibank/resources/imgs/icons/login-mobile.png"
+                                                alt="fincode-img">
+                                            <span>FİN kod ilə</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="login-type">
+                                        <div class="login-type-inner">
+                                            <img src="https://online.unibank.az/ibank/resources/imgs/icons/asan.png"
+                                                alt="asansignature-img">
+                                            <span>Asan İmza</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="info-wrapper">
+                                <img src="https://online.unibank.az/ibank/resources/imgs/icons/login-info.png"
+                                    alt="info-img">
+                                QR kod ilə giriş üçün UBank-dan istifadə et
+                            </div>
+                            <div class="asan-signature d-none">
+                                <div class="login-inputs-mob">
+                                    <div id="asan1" class="l-input">
+                                        <img src="https://online.unibank.az/ibank/resources/imgs/icons/login-mobile.png"
+                                            alt="input-img">
+                                        <input type="text" maxlength="13" required>
+                                        <label>Mobil nömrə</label>
+                                        <span class="content-name"></span>
+                                        <span class="content-name2"></span>
+                                    </div>
+                                    <div id="asan2" class="l-input">
+                                        <img src="https://online.unibank.az/ibank/resources/imgs/icons/asan-key.png"
+                                            alt="input-img">
+                                        <input type="text" maxlength="8" required>
+                                        <label class="label2">İstifadəçi ID-si</label>
+                                        <span class="content-name"></span>
+                                        <span class="content-name2"></span>
+                                    </div>
+                                </div>
+                                <div class="login-bottom-mob">
+                                    <div class="input-action">
+                                        <input type="submit" value="Daxil ol">
+                                        <img src="https://online.unibank.az/ibank/resources/imgs/icons/arrow-right-login.png"
+                                            alt="input-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="login-inputs">
+                                <div id="btm1" class="login-input">
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/account.png"
+                                        alt="input-img">
+                                    <input type="text" maxlength="15" required>
+                                    <a href="#">
+                                        <img id="inp-icon"
+                                            src="https://online.unibank.az/ibank/resources/imgs/icons/login-info.png"
+                                            alt="input-img">
+                                    </a>
+                                    <label id="l1">Şəxsiyyət vəsiqəsinin FİN kodu</label>
+                                    <span class="content-name"></span>
+                                    <span class="content-name2"></span>
+                                </div>
+                                <div id="btm2" class="login-input">
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/lock.png"
+                                        alt="input-img">
+                                    <input type="password" maxlength="16" required>
+                                    <label class="l2">Şifrə</label>
+                                    <span class="content-name"></span>
+                                    <span class="content-name2"></span>
+                                </div>
+                            </div>
+                            <div class="icon-hover d-none">
+                                <img src="./css/network_banking-css/images/1358353469_vesiqe.jpg" alt="icon-hover">
+                            </div>
+                            <div class="login-bottom-inputs">
+                                <div class="code-type">
+                                    <div class="login-input">
+                                        <input type="text" maxlength="8">
+                                        <img src="https://online.unibank.az/ibank/captcha?attr=16615cea90"
+                                            alt="input-img">
+                                        <label>Kodu daxil edin</label>
+                                        <span class="content-name"></span>
+                                        <span class="content-name2"></span>
+                                    </div>
+                                </div>
+                                <div class="forgot-password">
+                                    <a href="#">Şifrəni unutmusuz?</a>
+                                </div>
+                                <div class="input-action">
+                                    <input type="submit" value="Daxil ol">
+                                    <img src="https://online.unibank.az/ibank/resources/imgs/icons/arrow-right-login.png"
+                                        alt="input-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./css/network_banking-css/js/login_slider.js"></script>
+    <script src="./css/network_banking-css/js/main.js"></script>
+
+</body>
+<!-- body part end -->
+
+</html>

@@ -1,0 +1,516 @@
+#net-body{
+    background-image: url("https://online.unibank.az/ibank/resources/imgs/icons/bg-login.png");
+    height: 880px;
+    background-size: cover;
+    background-attachment: fixed;
+    .enter {
+        .outer-login {
+            width: 1035px;
+            margin: 3% auto;
+    
+            .wrapper-inner {
+                box-sizing: content-box;
+                margin: 0 15px;
+    
+                .login-header {
+                    padding-bottom: 5px;
+                    margin-top: 68px;
+                    font-size: 14px;
+                    color: #fff;
+                    width: 106%;
+    
+                    table {
+                        width: 100%;
+                        border-spacing: 0;
+    
+                        tbody {
+                            tr {
+                                td {
+                                    padding: 0;
+                                    margin: 0;
+    
+                                    form {
+                                        text-align: right;
+    
+                                        a {
+                                            padding: 4px;
+                                            border-radius: 2px;
+                                            color: #7c7c7c;
+                                            transition: .7s;
+                                            &:hover{
+                                                background-color: black;
+                                                color: black;
+                                            }
+                                        }
+    
+                                        .firstselect {
+                                            font-family: sourceRegular;
+                                            font-weight: 700;
+                                            border-bottom: 1px solid;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .login-body {
+                    width: 1062px;
+                    min-height: 450px;
+                    height: auto;
+                    float: left;
+                    background-color: #fafafa;
+                    border-radius: 5px;
+                    box-shadow: 0 40px 50px rgba(0, 0, 0, .3);
+    
+                    .left-content {
+                        width: 530px;
+                        min-height: 734px;
+                        height: auto;
+                        border-radius: 5px;
+                        float: left;
+    
+                        .slide-content {
+                            .card-items {
+                                margin: 0 auto;
+                                width: 324px;
+                                margin-top: 103px;
+                                position: relative;
+                                transition: 1s;
+                                .card-img {
+                                    width: 96%;
+                                    img {
+                                        width: 108%;
+                                        border-radius: 6px;
+                                        box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, .15);
+                                    }
+                                }
+    
+                                .card-info {
+                                    padding-left: 10px;
+                                    height: 200px;
+    
+                                    h4 {
+                                        color: #3e3e3e;
+                                        font-size: 20px;
+                                        margin-block-start: 1.33em;
+                                        margin-block-end: 1.33em;
+                                        font-family: sourceRegular;
+                                        font-weight: bold;
+                                    }
+    
+                                    p {
+                                        color: #9b9b9b;
+                                        font-family: sourceRegular;
+                                    }
+                                }
+                            }
+                            .slide-card{
+                                left: -200px;
+                                opacity: .2;
+                            }
+                            .slide-dot {
+                                margin-top: 33px;
+                                text-align: center;
+    
+                                .dot {
+                                    cursor: pointer;
+                                    height: 13px;
+                                    width: 13px;
+                                    margin: 0 2px;
+                                    background-color: rgba(175, 168, 168, .55);
+                                    border-radius: 50%;
+                                    display: inline-block;
+                                    transition: background-color .6s ease;
+                                }
+    
+                                .active-dot {
+                                    background-color: rgba(255, 100, 0, .8);
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+    
+                    .right-content {
+                        width: 530px;
+                        min-height: 750px;
+                        height: auto;
+                        padding-top: 60px;
+                        border-radius: 5px;
+                        background-color: #fff;
+                        float: right;
+                        box-shadow: -8px 3px 12px 4px rgba(0, 0, 0, .08);
+    
+                        .login-forms {
+                            float: left;
+                            width: 91%;
+                            padding-left: 40px;
+                            .forms-header {
+                                display: flex;
+                                justify-content: space-between;
+                                margin-block-start: 1em;
+                                margin-block-end: 1em;
+    
+                                h3 {
+                                    font-size: 1.17em;
+                                    font-family: sourceRegular;
+                                    font-weight: 700;
+                                    color: #3f3f3f;
+                                }
+    
+                                a {
+                                    float: right;
+                                    color: #000;
+                                    text-decoration: underline;
+                                    text-underline-position: under;
+                                    font-size: 17px;
+                                    font-family: sourceRegular;
+                                    font-weight: 700;
+                                }
+                            }
+    
+                            .qrcode-login {
+                                float: left;
+                                width: 166px;
+                                height: 200px;
+                                padding-left: 6px;
+                                text-align: center;
+    
+                                img {
+                                    float: left;
+                                    margin-left: -17px;
+                                    width: 185px;
+                                    margin-top: 3px;
+                                }
+                            }
+    
+                            .login-type-btn {
+                                padding-top: 16px;
+    
+                                a {
+                                    .login-type-active {
+                                        float: right;
+                                        border: 1px solid #ff9500;
+                                        width: 249px;
+                                        border-radius: 5px;
+                                        padding: 20px 30px;
+                                        text-align: center;
+                                        margin-top: 11px;
+    
+                                        .login-type-inner {
+                                            img {
+                                                float: left;
+                                            }
+    
+                                            span {
+                                                float: left;
+                                                margin-left: 10px;
+                                                padding-bottom: 2px;
+                                                border-bottom: 1px solid #fd9b00;
+                                                color: #000;
+                                                font-family: sourceRegular;
+                                            }
+                                        }
+                                    }
+    
+                                    .login-type {
+                                        text-align: center;
+                                        float: right;
+                                        border: 1px solid #d2d2d2;
+                                        width: 249px;
+                                        border-radius: 5px;
+                                        padding: 20px 30px;
+                                        margin-top: 11px;
+    
+                                        .login-type-inner {
+                                            img {
+                                                float: left;
+                                            }
+    
+                                            span {
+                                                float: left;
+                                                margin-left: 10px;
+                                                color: #000;
+                                                font-family: sourceRegular;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .info-wrapper {
+                                float: left;
+                                padding: 7px;
+                                font-size: 14px;
+                                color: gray;
+                                width: 100%;
+                                background-color: #f3f3f3;
+                                font-family: sourceRegular;
+                                font-weight: 400;
+    
+                                img {
+                                    float: left;
+                                    padding-right: 12px;
+                                    opacity: .6;
+                                    cursor: pointer;
+                                }
+                            }
+    
+                            .asan-signature{
+                                .login-inputs-mob{
+                                    float: left;
+                                    width: 100%;
+                                    margin-top: 47px;
+                                    .l-input{
+                                        position: relative;
+                                        margin-bottom: 33px;
+                                        text-align: left;
+                                        img{
+                                            top: 14px;
+                                            position: absolute;
+                                        }
+                                        input{
+                                            font-size: 18px;
+                                            padding: 10px 10px 10px 37px;
+                                            display: block;
+                                            width: 100%;
+                                            border: none;
+                                            border-bottom: 1px solid #d6d6d6;
+                                            color: #6f6f6f;
+                                            outline: 0;
+                                        }
+                                        label{
+                                            color: #999;
+                                            font-size: 18px;
+                                            position: absolute;
+                                            pointer-events: none;
+                                            top: 10px;
+                                            left: 25px;
+                                            font-family: sourceRegular;
+                                        }
+                                        .content-name{
+                                            border-bottom: 2px solid #f47123;
+                                            position: absolute;
+                                            top: 38px;
+                                            left: 220px;
+                                            height: 10px;
+                                            width: 0%;
+                                            transition: .3s;
+                                        }
+                                        .content-name2{
+                                            border-bottom: 2px solid #f47123;
+                                            position: absolute;
+                                            top: 38px;
+                                            right: 220px;
+                                            height: 10px;
+                                            width: 0%;
+                                            transition: .3s;
+                                        }
+                                    }
+                                }
+                                .login-bottom-mob{
+                                    float: left;
+                                    width: 100%;
+                                    height: 145px;
+                                    .input-action{
+                                        background-color: #ff6400;
+                                        text-align: left;
+                                        float: left;
+                                        width: 45%;
+                                        cursor: pointer;
+                                        border-radius: 5px;
+                                        input{
+                                            background-color: #ff6400;
+                                            border: none;
+                                            outline: none;
+                                            cursor: pointer;
+                                            text-align: left;
+                                            padding: 13px 72px 13px 22px;
+                                            color: #fff;
+                                            border-radius: 5px;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            .login-inputs {
+                                float: left;
+                                width: 100%;
+                                margin-top: 47px;
+                                .login-input {
+                                    position: relative;
+                                    margin-bottom: 33px;
+                                    text-align: left;
+                                    img {
+                                        top: 20px;
+                                        position: absolute;
+                                    }
+    
+                                    input {
+                                        font-size: 18px;
+                                        padding: 10px 10px 10px 37px;
+                                        display: block;
+                                        border: none;
+                                        outline: none;
+                                        border-bottom: 1px solid #d6d6d6;
+                                        color: #6f6f6f;
+                                        width: 100%;
+                                    }
+                                    a {
+                                        img {
+                                            position: absolute;
+                                            top: 20px;
+                                            right: 5px;
+                                            opacity: .6;
+                                            cursor: pointer;
+                                        }
+                                    }
+    
+                                    label {
+                                        position: absolute;
+                                        top: -20px;
+                                        left: 25px;
+                                        font-size: 14px;
+                                        color: #e28116;
+                                        pointer-events: none;
+                                        font-family: sourceRegular;
+                                        font-weight: 400;
+                                    }
+                                    .content-name{
+                                        border-bottom: 2px solid #f47123;
+                                        position: absolute;
+                                        top: 38px;
+                                        left: 220px;
+                                        height: 10px;
+                                        width: 0%;
+                                        transition: .3s;
+                                    }
+                                    .content-name2{
+                                        border-bottom: 2px solid #f47123;
+                                        position: absolute;
+                                        top: 38px;
+                                        right: 220px;
+                                        height: 10px;
+                                        width: 0%;
+                                        transition: .3s;
+                                    }
+                                }
+                            }
+    
+                            .icon-hover{
+                                z-index: 999999;
+                                img{
+                                    position: absolute;
+                                }
+                            }
+    
+    
+                            .login-bottom-inputs{
+                                float: left;
+                                width: 100%;
+                                height: 145px;
+                                .code-type{
+                                    float: left;
+                                    width: 53%;
+                                    .login-input{
+                                        position: relative;
+                                        margin-bottom: 33px;
+                                        text-align: left;
+                                        input{
+                                            font-size: 18px;
+                                            padding: 10px 10px 10px 80px;
+                                            display: block;
+                                            width: 100%;
+                                            border: none;
+                                            border-bottom: 1px solid #d6d6d6;
+                                            color: #6f6f6f;
+                                            outline: 0;
+                                        }
+                                        img{
+                                            top: 14px;
+                                            position: absolute;
+                                            opacity: .6;
+                                            cursor: pointer;
+                                        }
+                                        label{
+                                            top: -20px;
+                                            font-size: 14px;
+                                            color: #e28116;
+                                            font-weight: 400;
+                                            font-family: sourceRegular;
+                                            position: absolute;
+                                            pointer-events: none;
+                                            left: 75px;
+                                        }
+                                        .content-name{
+                                            border-bottom: 2px solid #f47123;
+                                            position: absolute;
+                                            top: 38px;
+                                            left: 115px;
+                                            height: 10px;
+                                            width: 0%;
+                                            transition: .3s;
+                                        }
+                                        .content-name2{
+                                            border-bottom: 2px solid #f47123;
+                                            position: absolute;
+                                            top: 38px;
+                                            right: 120px;
+                                            height: 10px;
+                                            width: 0%;
+                                            transition: .3s;
+                                        }
+                                    }
+                                }
+                                .forgot-password{
+                                    float: right;
+                                    width: 45%;
+                                    height: 60px;
+                                    padding-top: 12px;
+                                    a{
+                                        float: right;
+                                        color: #7977a1;
+                                        text-decoration: underline;
+                                        text-underline-position: under;
+                                        font-size: 17px;
+                                        font-family: sourceRegular;
+                                    }
+                                }
+                                .input-action{
+                                    background: #ff6400;
+                                    text-align: right;
+                                    float: left;
+                                    width: 100%;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    input{
+                                        background: #ff6400;
+                                        border: none;
+                                        outline: none;
+                                        cursor: pointer;
+                                        text-align: left;
+                                        padding: 13px 72px 13px 22px;
+                                        color: #fff;
+                                        border-radius: 5px;
+                                        width: 86%;
+                                        font-size: 17px;
+                                    }
+                                    img{
+                                        padding: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

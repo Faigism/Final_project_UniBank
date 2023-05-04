@@ -1,0 +1,253 @@
+.service-network {
+    .videobar {
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .videobar-overlay {
+            background-image: url("https://unibank.az/uploads/menus/o_1cnj0q0r11k96193k1rgp1tp1icca.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 250px;
+            width: 100%;
+            display: table;
+
+            .videobar-w {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+                cursor: pointer;
+
+                .player {
+                    .videobar-icon {
+                        font-size: 65px;
+                        line-height: 65px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-wrapper {
+        padding-top: 35px;
+
+        .feature-holder {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+            position: relative;
+
+            .feature {
+                width: calc(100%/3);
+                margin-bottom: 30px;
+                padding: 0 15px;
+                position: relative;
+                
+
+                .feature-wrapper {
+                    background-color: #fafafa;
+                    border-radius: 10px;
+                    padding: 45px 50px;
+                    position: relative;
+                    height: 100%;
+                    transition: all .2s linear;
+                    text-align: center;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #ff6400;
+                        .feature-icon{
+                            color: #fff;
+                        }
+                        .feature-body{
+                            h4{
+                                color: #fff;
+                            }
+                            p{
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .feature-icon {
+                        font-size: 65px;
+                        line-height: 65px;
+                        color: #ff6400;
+                        margin-bottom: 10px;
+                    }
+
+                    .feature-body {
+                        h4 {
+                            font-size: 20px;
+                            color: #000;
+                            line-height: normal;
+                            margin-bottom: 10px;
+                            margin-top: 20px;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            color: rgba(0,0,0,.8);
+                            line-height: normal;
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                            text-align: center;
+                            overflow: hidden;
+                        }
+                        .feature-right-icon{
+                            position: absolute;
+                            top: 50%;
+                            right: 40px;
+                            transform: translateY(-50%);
+                            color: rgba(0,0,0,.1);
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-ceos{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .ceos-item{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 45px 65px;
+            border-radius: 10px;
+            background-color: #fafafa;
+            margin-bottom: 0;
+            .ceos-img{
+                width: 105px;
+                height: 105px;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: 15px;
+                img{
+                    width: 106px;
+                    height: 106px;
+                    border-radius: 50%;
+                }
+            }
+            .ceos-name{
+                h2{
+                    font-family: fontBold;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #000;
+                    line-height: normal;
+                    margin-bottom: 5px;
+                }
+            }
+            .ceos-position{
+                span{
+                    font-family: fontRegular;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(0,0,0,.5);
+                    line-height: normal;
+                }
+            }
+            .ceos-text{
+                color: #000;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 1.60;
+                margin-top: 15px;
+            }
+        }
+    }
+    .content-about{
+        background-color: #fafafa;
+        margin-top: 30px;
+        border-radius: 10px;
+        .content-wrapper{
+            padding: 45px 65px;
+            .content-about-heading{
+                color: #ff6400;
+                font-family: fontexBold;
+                font-weight: 800;
+                font-size: 32px;
+                line-height: 32px;
+            }
+            .content-about-text{
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                color: #000;
+                margin-top: 15px;
+                line-height: 1.43;
+            }
+        }
+    }
+    .content-benefits{
+        display: flex;
+        margin: 0 -15px;
+        padding-top: 30px;
+        .content-benefit{
+            width: calc(100%/4);
+            text-align: center;
+            padding: 0 15px;
+            .content-benefit-item{
+                padding: 35px 45px;
+                height: 200px;
+                border-radius: 10px;
+                background-color: #ff6400;
+                span{
+                    font-size: 52px;
+                    line-height: 52px;
+                    margin-bottom: 15px;
+                    color: #fff;
+                }
+                p{
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 1.43;
+                    font-family: fontBold;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .content-values-wrapper{
+        margin-top: 50px;
+        h2{
+            margin-bottom: 20px;
+            color: #ff6400;
+            font-size: 32px;
+            line-height: 32px;
+            font-family: fontexBold;
+            font-weight: 800;
+        }
+        .values-wrapper{
+            margin: 0 -18px;
+            display: flex;
+            .values-block{
+                width: 25%;
+                padding-left: 18px;
+                padding-right: 18px;
+                h3{
+                    line-height: 20px;
+                    font-family: fontBold;
+                    font-weight: 700;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                .values-desc{
+                    p{
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #000;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

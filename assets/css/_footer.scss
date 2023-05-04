@@ -1,0 +1,146 @@
+.footer {
+    padding: 75px 0 60px;
+
+    .footer-wrapper {
+        padding-top: 55px;
+
+        .footer-menus {
+            display: flex;
+            justify-content: space-between;
+
+            .footer-menu {
+                .footer-link {
+                    line-height: 14px;
+                    font-family: fontRegular;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #000;
+                }
+
+                .footer-children {
+                    padding-top: 17px;
+
+                    .footer-child {
+                        a {
+                            font-size: 12px;
+                            color: #000;
+                            line-height: 35px;
+                            font-family: fontRegular;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-center {
+            padding: 50px 0 20px;
+            border-bottom: 1px solid #d6d9db;
+
+            .ftr-icon {
+                color: #fff;
+                font-size: 14px;
+                margin-right: 12px;
+                padding: 6px 8px;
+                background-color: #a1a1a1;
+                border-radius: 50px;
+
+            }
+
+            .ftr-icon1 {
+                color: #fff;
+                font-size: 14px;
+                margin-right: 12px;
+                padding: 6px 8px;
+                background-color: orangered;
+                border-radius: 50px;
+            }
+
+            #rob{
+                padding: 6px 5px;
+            }
+            #you{
+                padding: 6px 6px;
+            }
+            #twit{
+                padding: 6px 6px;
+            }
+            #tele{
+                padding: 6px 6px;
+            }
+        }
+
+        .footer-bottom {
+            padding-top: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-copyright {
+                color: #000;
+                letter-spacing: .37px;
+                line-height: 23px;
+
+                span {
+                    line-height: 12px;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-weight: 200;
+                    font-size: 12px;
+                    margin-top: 10px;
+                    line-height: 12px;
+                }
+            }
+
+            .footer-partners {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .footer-partner {
+                    margin-left: 30px;
+                    .ftr-partner-logo1 {
+                        background-image: url("https://unibank.az/assets/images/adif.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        width: 60px;
+                        height: 45px;
+                        display: inline-block;
+                    }
+                    .ftr-partner-logo2 {
+                        background-image: url("../images/download.png");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        width: 130px;
+                        height: 80px;
+                        display: inline-block;
+                    }
+                    .ftr-partner-logo3{
+                        background-image: url("https://unibank.az/assets/images/infobank.png?v4");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        width: 80px;
+                        height: 45px;
+                        display: inline-block;
+                    }
+                    .ftr-partner-logo4{
+                        background-image: url("https://unibank.az/assets/images/msp.png?v5");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        width: 80px;
+                        height: 45px;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

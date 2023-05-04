@@ -1,0 +1,52 @@
+#Pr_list{
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #product_count2{
+        font-size: 18px;
+        color: #ff6400;
+    }
+    .pr-all-price{
+        font-size: 18px;
+        color: #ff6400;
+        font-weight: 600;
+        text-align: end;
+    }
+}
+.alert{
+    background-color: transparent;
+}
+.card-body{
+    .btn-Decrement{
+        font-size: 30px;
+        border: 1px solid #ff6400;
+        padding: 0 20px 9px 20px;
+        border-radius: 50px;
+        background-color: #fff;
+    }
+    .btn-Increment{
+        font-size: 30px;
+        border: 1px solid #ff6400;
+        padding: 0 15px 9px 15px;
+        border-radius: 50px;
+        background-color: #fff;
+    }
+    .txtCount{
+        border: none;
+        background-color: #dbd5d5;
+        padding: 10px 20px;
+        outline: 0;
+        text-align: center;
+    }
+}
+.btn-order{
+    text-align: center;
+    flex-direction: column;
+}
+.rowlist{
+    margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,384 @@
+.exchange{
+    padding: 30px 0;
+    .exchange-wrapper{
+        padding: 40px 70px;
+        overflow: hidden;
+        background: #fafafa;
+        border-radius: 10px;
+        .exchange-mobile{
+            line-height: 28px;
+            font-family: fontexBold;
+            font-weight: 800;
+            font-size: 28px;
+            color: #ff6400;
+            margin: 0 0 20px;
+            display: none;
+        }
+        .exchange-desktop{
+            margin-bottom: 15px;
+            line-height: 20px;
+            font-family: fontexBold;
+            font-weight: 800;
+            font-size: 28px;
+            color: #ff6400;
+            margin: 0 0 20px;
+        }
+        .exchange-wr2{
+            margin: 0 -62px;
+            .hidden-mobile{
+                display: flex;
+                justify-content: space-between;
+                .exchange-cat{
+                    position: relative;
+                    min-height: 1px;
+                    padding: 50px 62px;
+                    
+                    .exchange-header{
+                        line-height: 18px;
+                        font-family: fontRegular;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #000;
+                        padding-bottom: 10px;
+                    }
+                    .exchange-date{
+                        line-height: 12px;
+                        font-size: 12px;
+                        color: rgba(50,50,50,.5);
+                        margin-bottom: 30px;
+                        font-weight: 400;
+                    }
+                    .exchange-body{
+                        table{
+                            width: 100%;
+                            thead{
+                                font-size: 14px;
+                                color: #acb3b8;
+                                line-height: 18px;
+                                text-align: left;
+                                font-family: fontRegular;
+                                font-weight: 400;
+                                tr{
+                                    th{
+                                        border-bottom: 1px solid #d6d9db;
+                                        padding-bottom: 11px;
+                                        width: 33.3%;
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                            tbody{
+                                font-size: 14px;
+                                line-height: 14px;
+                                tr{
+                                    td{
+                                        width: 33.3%;
+                                        white-space: nowrap;
+                                        font-weight: 700;
+                                        padding: 18px 0;
+                                        color: #323232;
+                                        .exchange-icon{
+                                            font-size: 8px;
+                                            color: #000;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .hidden-desktop{
+                width: 100%;
+                .siblings-links{
+                    width: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    overflow-x: auto;
+                    .sibiling-item-active{
+                        border: 2px solid #ff6400;
+                        margin-bottom: 20px;
+                        margin-top: 10px;
+                        border-radius: 25px;
+                        color: #ff6400;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        position: relative;
+                    }
+                    .sibiling-item{
+                        line-height: 14px;
+                        font-size: 14px;
+                        color: #a1a1a1;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        display: inline-block;
+                        padding: 16px 40px;
+                        border-radius: 25px;
+                        border: 2px solid #969696;
+                        font-family: fontRegular;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                }
+                .siblings-contents{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    .sibiling-content-active{
+                        display: block;
+                        div{
+                            .exchange-date{
+                                line-height: 12px;
+                                font-size: 12px;
+                                color: rgba(50,50,50,.5);
+                                margin-bottom: 30px;
+                            }
+                            .exchange-body{
+                                table{
+                                    width: 100%;
+                                    thead{
+                                        font-size: 14px;
+                                        color: #acb3b8;
+                                        line-height: 18px;
+                                        text-align: left;
+                                        font-family: fontRegular;
+                                        font-weight: 400;
+                                        tr{
+                                            th{
+                                                border-bottom: 1px solid #d6d9db;
+                                                padding-bottom: 11px;
+                                                width: 33%;
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                    tbody{
+                                        line-height: 14px;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        color: #000;
+                                        tr{
+                                            td{
+                                                width: 33.3%;
+                                                padding: 15px 0;
+                                                color: #323232;
+                                                font-weight: 700;
+                                                .exchange-icon{
+                                                    font-size: 12px;
+                                                    color: #323232;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .sibiling-content{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .exchange-convert{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            height: 150px;
+            background: #fff;
+            box-shadow: 0 10px 25px -10px rgba(0,0,0,.1);
+            padding: 50px 30px;
+            border-radius: 10px;
+            .convert-header{
+                .convert-caption{
+                    line-height: 18px;
+                    font-family: fontRegular;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #000;
+                    padding-bottom: 10px;
+                }
+                .convert-title{
+                    margin-bottom: 0;
+                    line-height: 12px;
+                    font-size: 12px;
+                    color: rgba(50,50,50,.5);
+                    margin-bottom: 30px;
+                    font-family: fontRegular;
+                    font-weight: 400;
+                }
+            }
+            .convert-body{
+                float: left;
+                position: relative;
+                .exchange-calc-up{
+                    overflow: hidden;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    border: 1px solid rgba(50,50,50,.1);
+                    margin-bottom: 10px;
+                    float: left;
+                    width: 280px;
+                    margin-right: 70px;
+                    align-items: center;
+                    display: flex;
+                    input{
+                        border: none;
+                        background: 0 0;
+                        font-weight: 700;
+                        font-size: 15px;
+                        color: #000;
+                        line-height: 47px;
+                        width: 70%;
+                        outline: 0;
+                    }
+                    .exchange-calc-select{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        position: relative;
+                        .select-inp{
+                            z-index: 1;
+                            border: none;
+                            background: 0 0;
+                            padding-right: 12px;
+                            font-family: fontRegular;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 47px;
+                            color: #000;
+                            outline: 0;
+                            width: 80px;
+                            option{
+                                font-weight: normal;
+                                display: block;
+                                min-height: 1.2em;
+                                padding: 0px 2px 1px;
+                            }
+                        }
+                        .exchange-calc-select2{
+                            width: 100%;
+                            display: inline-block;
+                            position: relative;
+                            vertical-align: middle;
+                            .select3{
+                                .select4{
+                                    border: none;
+                                    background-color: #fff;
+                                    border-radius: 4px;
+                                    .select5{
+                                        color: #444;
+                                        line-height: 28px;
+                                        display: block;
+                                        padding-left: 8px;
+                                        overflow: hidden;
+                                        .select-flag{
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                background-image: url("https://unibank.az/assets/images/usd.png");
+                                                width: 18px;
+                                                height: 18px;
+                                                display: inline-block;
+                                                background-repeat: no-repeat;
+                                                background-size: 100%;
+                                                background-position: center;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                i{
+                    position: absolute;
+                    top: 25px;
+                    right: 375px;
+                    color: #ff6400;
+                }
+                .exchange-calc-down{
+                    overflow: hidden;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    border: 1px solid rgba(50,50,50,.1);
+                    margin-bottom: 10px;
+                    float: left;
+                    width: 280px;
+                    margin-right: 70px;
+                    align-items: center;
+                    display: flex;
+                    input{
+                        border: none;
+                        background: 0 0;
+                        font-weight: 700;
+                        font-size: 15px;
+                        color: #000;
+                        line-height: 47px;
+                        width: 70%;
+                        outline: 0;
+                    }
+                    .exchange-calc-select{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        position: relative;
+                        .select-inp{
+                            z-index: 1;
+                            border: none;
+                            background: 0 0;
+                            padding-right: 12px;
+                            font-family: fontRegular;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 47px;
+                            color: #000;
+                            outline: 0;
+                            width: 80px;
+                            option{
+                                font-weight: normal;
+                                display: block;
+                                min-height: 1.2em;
+                                padding: 0px 2px 1px;
+                            }
+                        }
+                        .exchange-calc-select2{
+                            width: 100%;
+                            display: inline-block;
+                            position: relative;
+                            vertical-align: middle;
+                            .select3{
+                                .select4{
+                                    border: none;
+                                    background-color: #fff;
+                                    border-radius: 4px;
+                                    .select5{
+                                        color: #444;
+                                        line-height: 28px;
+                                        display: block;
+                                        padding-left: 8px;
+                                        overflow: hidden;
+                                        .select-flag{
+                                            display: flex;
+                                            align-items: center;
+                                            span{
+                                                background-image: url("https://unibank.az/assets/images/azn.png");
+                                                width: 18px;
+                                                height: 18px;
+                                                display: inline-block;
+                                                background-repeat: no-repeat;
+                                                background-size: 100%;
+                                                background-position: center;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

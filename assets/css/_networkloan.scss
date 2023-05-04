@@ -1,0 +1,99 @@
+.network-loan{
+    margin-top: 20px;
+    .network{
+        display: flex;
+        margin: 0 -15px;
+        .network-location-w{
+            width: 60%;
+            padding: 0 15px;
+            .network-location{
+                height: 320px;
+                padding: 45px 65px;
+                position: relative;
+                overflow: hidden;
+                background: #fafafa;
+                border-radius: 10px;
+                .network-location-img{
+                    position: absolute;
+                    bottom: -3px;
+                    right: 0;
+                    overflow: hidden;
+                    img{
+                        height: 250px;
+                    }
+                }
+                .network-heading{
+                    font-size: 28px;
+                    width: 35%;
+                    line-height: normal;
+                    color: #ff6400;
+                    font-family: fontexBold;
+                    font-weight: 800;
+                }
+                .network-summary{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(0,0,0,.8);
+                    width: 70%;
+                    line-height: 20px;
+                }
+                .network-btn{
+                    font-size: 14px;
+                    display: inline-block;
+                    font-family: fontRegular;
+                    font-weight: 700;
+                    padding: 15px 40px;
+                    background: #ff6400;
+                    border-radius: 25px;
+                    color: #fff;
+                    margin-top: 23px;
+                }
+            }
+        }
+        .network-question-w{
+            width: 40%;
+            padding: 0 15px;
+            .network-question{
+                height: 320px;
+                padding: 45px 65px;
+                position: relative;
+                background: #fafafa;
+                border-radius: 10px;
+                .network-question-img{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    img{
+                        height: 250px;
+                    }
+                }
+                .network-heading{
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: normal;
+                    font-family: fontexBold;
+                    font-weight: 800;
+                    color: #ff6400;
+                }
+                .network-summary{
+                    width: 70%;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: rgba(0,0,0,.8);
+                    line-height: 20px;
+                }
+                .network-btn{
+                    font-size: 14px;
+                    display: inline-block;
+                    font-family: fontRegular;
+                    font-weight: 700;
+                    padding: 15px 40px;
+                    background: #ff6400;
+                    border-radius: 25px;
+                    color: #fff;
+                    margin-top: 23px;
+                }
+            }
+        }
+    }
+}
